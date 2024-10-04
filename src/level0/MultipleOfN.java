@@ -16,7 +16,15 @@ public class MultipleOfN {
         int result;
 
         num = 98;
+        //num = 34;
+
         n = 2;
+        //n = 3;
+
+        // + : 덧셈
+        // - : 뺄셈
+        // / : 나누기(몫)
+        // % : 나누기(나머지)
 
         if (num % n == 0) {
 
