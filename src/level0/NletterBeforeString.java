@@ -1,6 +1,6 @@
 package level0;
 
-public class nLetterBeforeString {
+public class NletterBeforeString {
     // 문제명
     // 코딩테스트 연습 > 코딩 기초 트레이닝 > 문자열의 앞의 n글자
     //
