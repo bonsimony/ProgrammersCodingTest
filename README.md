@@ -32,3 +32,6 @@
 
 11. CommonMultiple.java
    : 코딩테스트 연습 > 코딩 기초 트레이닝 > 공배수
+
+12. LastTwoElements.java
+   : 코딩테스트 연습 > 코딩 기초 트레이닝 > 마지막 두 원소
