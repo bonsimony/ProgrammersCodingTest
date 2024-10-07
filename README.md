@@ -35,3 +35,7 @@
 
 12. LastTwoElements.java
    : 코딩테스트 연습 > 코딩 기초 트레이닝 > 마지막 두 원소
+
+13. ArrayListConfugation.java
+   : 코딩테스트 연습 > 코딩 기초 트레이닝 > 마지막 두 원소
+   : 마지막 두 원소 (Lv0) 응용하여 ArrayListy 활용
