@@ -3,3 +3,6 @@
 
 2. CheckSuffix.java
    : 코딩테스트연습 > 코딩 기초 트레이닝 > 접미사인지 확인하기 (Lv0)
+
+3. NletterBeforeString.java
+   : 코딩테스트 연습 > 코딩 기초 트레이닝 > 문자열의 앞의 N글자
