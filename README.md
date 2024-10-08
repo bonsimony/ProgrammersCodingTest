@@ -48,3 +48,6 @@
 
 16. PrintingString.java
    : 코딩테스트 연습 > 코딩 기초 트레이닝 > 문자열 출력하기
+
+17. PrintAandB.java
+   : 코딩테스트 연습 > 코딩 기초 트레이닝 > a와 b 출력하기
