@@ -42,3 +42,9 @@
 
 14. MultiplicationAndSumOfElements.java
    : 코딩테스트 연습 > 코딩 기초 트레이닝 > 원소들의 곱과 합
+
+15. OperationOfTwoNumbers.java
+   : 코딩테스트 연습 > 코딩 기초 트레이닝 > 두 수의 연산값 비교하기
+
+16. PrintingString.java
+   : 코딩테스트 연습 > 코딩 기초 트레이닝 > 문자열 출력하기
