@@ -51,3 +51,6 @@
 
 17. PrintAandB.java
    : 코딩테스트 연습 > 코딩 기초 트레이닝 > a와 b 출력하기
+
+18. PcceFirst.java
+   : [PCCE 기출문제] 1번 / 문자 출력
