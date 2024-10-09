@@ -31,7 +31,7 @@
    : 접미사인지 확인하기 (Lv0) 응용하여 StartsWith 함수 사용
 
 11. CommonMultiple.java
-   : 코딩테스트 연습 > 코딩 기초 트레이닝 > 공배수
+   : 코딩테스트 연습 > 코딩 기초 트레이닝 > 공배수 (Lv0)
 
 12. LastTwoElements.java
    : 코딩테스트 연습 > 코딩 기초 트레이닝 > 마지막 두 원소
