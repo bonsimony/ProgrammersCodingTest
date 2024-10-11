@@ -20,24 +20,36 @@ public class PccpFirst {
 
     }
 
-    public static int solution(String video_len, String pos, String op_start, String op_end, String[] commands){
+    public static String solution(String video_len, String pos, String op_start, String op_end, String[] commands){
 
         int video_len_convert = convert(video_len);
         int pos_convert = convert(pos);
         int op_start_convert = convert(op_start);
         int op_end_convert = convert(op_end);
+        int resultInt = 0;
+        int prev_next = 0;
+        String result = "";
+
 
         for(int i=0; i<commands.length; i++){
 
-            if(commands[i] == "prev"){
+            if(commands[i].equals("prev")){
+                prev_next -= 10;
                 pos_convert -= 10;
-            }else if(commands[i] == "next"){
+            }else if(commands[i].equals("next")){
+                prev_next += 10;
                 pos_convert += 10;
             }
 
+            pos_convert = pos_minus_check(pos_convert);
+            resultInt = opening(pos_convert, op_start_convert, op_end_convert, convert(pos), prev_next);
+
+            result = lpad(resultInt);
         }
 
-        return pos_convert;
+        return result;
+
+
     }
 
 
@@ -46,13 +58,68 @@ public class PccpFirst {
         String[] timeSplit = time.split(":");
         int minute = Integer.parseInt(timeSplit[0]);
         int seconds = Integer.parseInt(timeSplit[1]);
+        int result = 0;
 
         int total_seconds = (minute * 60) + seconds;
+        result = total_seconds;
 
-        return total_seconds;
+        return result;
     }
 
+    public static int pos_minus_check(int pos_convert){
 
+        int result = 0;
+
+        if(pos_convert < 0){
+            result = 0;
+        }else{
+            result = pos_convert;
+        }
+
+        return result;
+    }
+
+    public static int opening(int pos_convert, int op_start_convert, int op_end_convert, int pos, int prev_next){
+
+        int result = 0;
+
+        if(op_start_convert <= pos_convert && pos_convert <= op_end_convert){
+
+            result = op_end_convert;
+
+        }else if(op_start_convert <= pos && pos <= op_end_convert){
+
+            result = op_end_convert + prev_next;
+
+        }
+        else{
+
+             result = pos_convert;
+
+        }
+
+        return result;
+    }
+
+    public static String lpad(int resultInt){
+
+        String result = "";
+
+        String minute = String.valueOf(resultInt / 60);
+        String seconds = String.valueOf(resultInt % 60);
+
+        if(minute.length() < 2){
+            minute = "0" + minute;
+        }
+
+        if(seconds.length() < 2){
+            seconds = "0" + seconds;
+        }
+
+        result = minute + ":" + seconds;
+
+        return result;
+    }
 
 
 
