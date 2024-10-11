@@ -126,11 +126,11 @@ public class PccpFirst {
 
     public static int video_check(int resultInt, int video_len_convert){
 
-        int result = 0;
+        int result;
 
-        if(resultInt >= video_len_convert) {
+        if(resultInt > video_len_convert) {
             result = video_len_convert;
-        }else{
+        } else{
             result = resultInt;
         }
 
