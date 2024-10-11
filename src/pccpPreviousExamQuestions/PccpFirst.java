@@ -1,10 +1,9 @@
 package pccpPreviousExamQuestions;
 
-import java.security.acl.LastOwnerException;
-
 public class PccpFirst {
 
     // 문제명
+    // 코딩테스트 연습 > PCCP 기출문제 > [PCCP 기출문제] 1번 / 동영상 재생기
     //당신은 동영상 재생기를 만들고 있습니다. 당신의 동영상 재생기는 10초 전으로 이동, 10초 후로 이동, 오프닝 건너뛰기 3가지 기능을 지원합니다.
     // 각 기능이 수행하는 작업은 다음과 같습니다.
     //10초 전으로 이동: 사용자가 "prev" 명령을 입력할 경우 동영상의 재생 위치를 현재 위치에서 10초 전으로 이동합니다. 현재 위치가 10초 미만인 경우 영상의 처음 위치로 이동합니다. 영상의 처음 위치는 0분 0초입니다.
