@@ -1,6 +1,6 @@
 package pccpPreviousExamQuestions.First;
 
-public class PccpFirstAnswer {
+public class VideoPlayerAnswer {
 
     public static void main(String[] args) {
         System.out.println(solution("34:33", "13:00", "00:55", "02:55", new String[]{"next", "prev"}));

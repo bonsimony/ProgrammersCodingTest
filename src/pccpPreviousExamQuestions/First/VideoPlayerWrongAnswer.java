@@ -1,6 +1,6 @@
 package pccpPreviousExamQuestions.First;
 
-public class PccpFirstWrongAnswer {
+public class VideoPlayerWrongAnswer {
 
     // 문제명
     // 코딩테스트 연습 > PCCP 기출문제 > [PCCP 기출문제] 1번 / 동영상 재생기

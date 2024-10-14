@@ -1,6 +1,6 @@
 package pccpPreviousExamQuestions.First;
 
-public class PccpFirstAnswerRefactoring {
+public class VideoPlayerAnswerRefactoring {
 
     public static void main(String[] args) {
 
