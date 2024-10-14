@@ -54,3 +54,15 @@
 
 18. PcceFirst.java
    : [PCCE 기출문제] 1번 / 문자 출력
+
+19. PccpFirstWrongAnswer.java
+   : [PCCP 기출문제] 1번 / 동영상 재생기
+
+20. PccpFirstAnswer.java
+   : [PCCP 기출문제] 1번 / 동영상 재생기
+
+21. PccpFirstAnswerRefactoring.java
+   : [PCCP 기출문제] 1번 / 동영상 재생기
+
+22. StringMultiplication.java
+   : 코딩테스트 연습 > 코딩 기초 트레이닝 > 문자열 곱하기
