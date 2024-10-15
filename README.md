@@ -65,3 +65,6 @@
 
 22. StringMultiplication.java
    : 코딩테스트 연습 > 코딩 기초 트레이닝 > 문자열 곱하기
+
+23. CountDown.java
+   : 코딩테스트 연습 > 코딩 기초 트레이닝 > 카운트 다운
