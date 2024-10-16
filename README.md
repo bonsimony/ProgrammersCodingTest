@@ -52,19 +52,22 @@
    : 코딩테스트 연습 > 코딩 기초 트레이닝 > a와 b 출력하기
 
 18. PcceFirst.java
-   : [PCCE 기출문제] 1번 / 문자 출력
+   : 코딩테스트 연습 > PCCE 기출문제 > [PCCE 기출문제] 1번 / 문자 출력
 
 19. PccpFirstWrongAnswer.java
-   : [PCCP 기출문제] 1번 / 동영상 재생기
+   : 코딩테스트 연습 > PCCP 기출문제 > [PCCP 기출문제] 1번 / 동영상 재생기
 
 20. PccpFirstAnswer.java
-   : [PCCP 기출문제] 1번 / 동영상 재생기
+   : 코딩테스트 연습 > PCCP 기출문제 > [PCCP 기출문제] 1번 / 동영상 재생기
 
 21. PccpFirstAnswerRefactoring.java
-   : [PCCP 기출문제] 1번 / 동영상 재생기
+   : 코딩테스트 연습 > PCCP 기출문제 > [PCCP 기출문제] 1번 / 동영상 재생기
 
 22. StringMultiplication.java
    : 코딩테스트 연습 > 코딩 기초 트레이닝 > 문자열 곱하기
 
 23. CountDown.java
    : 코딩테스트 연습 > 코딩 기초 트레이닝 > 카운트 다운
+
+24. Banding.java
+   : 코딩테스트 연습 > PCCP 기출문제 > [PCCP 기출문제] 1번 / 붕대 감기
