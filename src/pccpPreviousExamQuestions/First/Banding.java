@@ -47,34 +47,51 @@ class Solution {
 
         int nowhealth = health;
 
-        int attackCount = 0;
-        int attackTime = bandage[0];
-        int RecoveryAmountPerSeconds = bandage[1];
-        int AddtionalRecoveryAmount = bandage[2];
+        // count 2개가 필요해서 attackCount, healcount 추가 -> 구분짓기위한 변수명 지정
 
-        int lastAttack = attacks.length-1;
+        int attackCount = 0;                            // 공격카운트
+        int attackTime = bandage[0];                    // 공격시간
+        int recoveryAmountPerSeconds = bandage[1];      // 초당회복량
+        int addtionalRecoveryAmount = bandage[2];       // 추가회복량
 
-        int healCount = 0;
+        int lastAttack = attacks.length-1;              // 마지막 공격
+
+        int healCount = 0;                              // 힐카운트
 
         for (int i = 1; i <= attacks[lastAttack][0]; i++){
-            if (i == attacks[attackCount][0]) {
+            if (i == attacks[attackCount][0]) { // 공격받았을때!!!!!
 
-                healCount = 0;
-                nowhealth -= attacks[attackCount][1];
-                attackCount++;
+                /* 공격이 끝난 후에 체크를 해야되서 여기는 두면 안되서 밑으로 옮김
+                    if(nowhealth <= 0) {
 
-                if(nowhealth <= 0) {
+                        answer = -1;
+                        return answer;
+                    }
+                }*/
 
-                    return -1;
+                // answer = attacks[0][0];  // 첫번째 공격
+                // answer = attacks[1][0];  // 두번째 공격
+                // answer = attacks[2][0];  // 세번째 공격
+                // answer = attacks[3][0];  // 네번째 공격
+
+                healCount = 0;  // 공격을 받을때는 힐을 할 수 없으니 0으로 초기화
+
+                nowhealth -= attacks[attackCount][1];   // 현재 체력에서 피해량을 뺌
+                attackCount++;                          // for문이 돌면서 공격 카운트는 증가
+
+                if(nowhealth <= 0) {    // 현재 체력이 0이거나 그 이하일때 -1을 리터한다.
+
+                    answer = -1;
+                    return answer;
 
                 }
 
-            } else {
+            } else { // 공격 안받았을때!!!!!
 
-                nowhealth += RecoveryAmountPerSeconds;
-                healCount++;
+                nowhealth += recoveryAmountPerSeconds;      // 현재 체력에서 초당회복량을 더함
+                healCount++;    // 공격받았을때는 attackCount를 증가시켰지만 공격 안받았을때는 healConut가 필요
                 if (healCount == attackTime){
-                    nowhealth += AddtionalRecoveryAmount;
+                    nowhealth += addtionalRecoveryAmount;
                     healCount = 0;
                 }
                 if (nowhealth > health) {
@@ -89,13 +106,6 @@ class Solution {
 
 
     }
+
+
 }
-
-
-
-
-
-
-
-
-
