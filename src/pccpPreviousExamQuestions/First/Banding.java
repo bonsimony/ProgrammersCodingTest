@@ -58,7 +58,8 @@ class Solution {
 
         int healCount = 0;                              // 힐카운트
 
-        for (int i = 1; i <= attacks[lastAttack][0]; i++){
+        int i = 0;
+        for (i = 1; i <= attacks[lastAttack][0]; i++){
             if (i == attacks[attackCount][0]) { // 공격받았을때!!!!!
 
                 /* 공격이 끝난 후에 체크를 해야되서 여기는 두면 안되서 밑으로 옮김
@@ -77,9 +78,9 @@ class Solution {
                 healCount = 0;  // 공격을 받을때는 힐을 할 수 없으니 0으로 초기화
 
                 nowhealth -= attacks[attackCount][1];   // 현재 체력에서 피해량을 뺌
-                attackCount++;                          // for문이 돌면서 공격 카운트는 증가
+                attackCount++;  // for문이 돌면서 공격 카운트는 증가
 
-                if(nowhealth <= 0) {    // 현재 체력이 0이거나 그 이하일때 -1을 리터한다.
+                if(nowhealth <= 0) {    // 현재 체력이 0이거나 그 이하일때 -1을 리턴한다.
 
                     answer = -1;
                     return answer;
