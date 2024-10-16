@@ -80,3 +80,6 @@
 
 27. PrintWithCaseChanged.java
    : 코딩테스트 연습 > 코딩 기초 트레이닝 > 특수문자 출력하기
+
+28. PrintingAddtionExpressions.java
+   : 코딩테스트 연습 > 코딩 기초 트레이닝 > 덧셈식 출력하기
