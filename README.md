@@ -71,3 +71,6 @@
 
 24. Banding.java
    : 코딩테스트 연습 > PCCP 기출문제 > [PCCP 기출문제] 1번 / 붕대 감기
+
+25. PrintingAStringRepeatedly.java
+   : 코딩테스트 연습 > PCCP 기출문제 > 문자열 반복해서 출력하기
