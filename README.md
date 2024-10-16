@@ -74,3 +74,6 @@
 
 25. PrintingAStringRepeatedly.java
    : 코딩테스트 연습 > PCCP 기출문제 > 문자열 반복해서 출력하기
+
+26. PrintWithCaseChanged.java
+   : 코딩테스트 연습 > 코딩 기초 트레이닝 > 대소문자 바꿔서 출력하기
