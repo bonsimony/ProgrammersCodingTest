@@ -16,7 +16,7 @@ public class PrintingAddtionExpressions {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.print("4 + 5 = ");
+        System.out.print(a +" + " + b + " = ");
         System.out.print(a + b);
     }
 }
