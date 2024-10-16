@@ -77,3 +77,6 @@
 
 26. PrintWithCaseChanged.java
    : 코딩테스트 연습 > 코딩 기초 트레이닝 > 대소문자 바꿔서 출력하기
+
+27. PrintWithCaseChanged.java
+   : 코딩테스트 연습 > 코딩 기초 트레이닝 > 특수문자 출력하기
