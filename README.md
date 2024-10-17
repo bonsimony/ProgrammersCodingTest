@@ -1,4 +1,4 @@
-1. CorrectParentheses.java
+91. CorrectParentheses.java
    : 코딩테스트연습 > 스택/큐 > 올바른 괄호 (Lv2)
 
 2. CheckSuffix.java
@@ -82,4 +82,4 @@
    : 코딩테스트 연습 > 코딩 기초 트레이닝 > 특수문자 출력하기
 
 28. PrintingAddtionExpressions.java
-   : 코딩테스트 연습 > 코딩 기초 트레이닝 > 덧셈식 출력하기
+   : 코딩테스트 연습 > 코딩 기초 트레이닝 > 덧셈식 출력하기 (Lv0)
