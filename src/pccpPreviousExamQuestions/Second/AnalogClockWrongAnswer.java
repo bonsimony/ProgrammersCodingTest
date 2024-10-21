@@ -1,6 +1,6 @@
 package pccpPreviousExamQuestions.Second;
 
-public class AnalogClock {
+public class AnalogClockWrongAnswer {
 
 
     // 문제명
@@ -15,12 +15,19 @@ public class AnalogClock {
 
         int answer = 0;
 
+        //int h1 = 0;
+        //int m1 = 5;
+        //int s1 = 30;
+        //int h2 = 0;
+        //int m2 = 7;
+        //int s2 = 0;
+
         int h1 = 0;
-        int m1 = 5;
-        int s1 = 30;
+        int m1 = 6;
+        int s1 = 1;
         int h2 = 0;
-        int m2 = 7;
-        int s2 = 0;
+        int m2 = 6;
+        int s2 = 6;
 
         int timeHour = h1;
         int timeMinute = m1;
