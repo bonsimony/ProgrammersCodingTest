@@ -73,9 +73,13 @@ public class AnalogClock {
                 count+=1;
             }
 
-            if(minuteAngle == secondsAngle && hourAngle == secondsAngle){
+            if(minuteAngle == secondsAngle && hourAngle == secondsAngle ){
                 count-=1;
             }
+
+            // if(hourAngle == 0 && minuteAngle == 0 && secondsAngle == 0){
+            //     count-=1;
+            // }
 
             preHourPosition = hourAngle;
             preMinutePosition = minuteAngle;
