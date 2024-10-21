@@ -2,6 +2,7 @@ package pccpPreviousExamQuestions.First;
 
 public class Banding {
 
+
     // 문제명
     // 코딩테스트 연습 > PCCP 기출문제 > [PCCP 기출문제] 1번 / 붕대 감기
     // 문제설명
