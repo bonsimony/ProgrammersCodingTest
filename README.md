@@ -85,4 +85,7 @@
    : 코딩테스트 연습 > 코딩 기초 트레이닝 > 덧셈식 출력하기
 
 29. AnalogClockWrongAnswer.java
-   : 코딩테스트 연습 > PCCP 기출문제 > [PCCP 기출문제] 3번 / 아날로그 시계
+   : 코딩테스트 연습 > PCCP 기출문제 > [PCCP 기출문제] 3번 / 아날로그 시계 오답
+
+30. AnalogClockAnswer.java
+    : 코딩테스트 연습 > PCCP 기출문제 > [PCCP 기출문제] 3번 / 아날로그 시계 정답
