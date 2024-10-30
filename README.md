@@ -89,3 +89,6 @@
 
 30. AnalogClockAnswer.java
     : 코딩테스트 연습 > PCCP 기출문제 > [PCCP 기출문제] 3번 / 아날로그 시계 정답
+
+31. DifferenceBetweenTwoNumbers.java
+    : 코딩테스트 연습 > 코딩테스트 입문 > 두 수의 차
