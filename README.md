@@ -92,3 +92,6 @@
 
 31. DifferenceBetweenTwoNumbers.java
     : 코딩테스트 연습 > 코딩테스트 입문 > 두 수의 차
+
+32. MultiplicationOfTwoNumbers.java
+    : 코딩테스트 연습 > 코딩테스트 입문 > 두 수의 곱
